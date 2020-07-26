@@ -70,6 +70,27 @@ All the screenshots are in the `screenshots` folder.
   - Stackoverflow: [yash-kumar-verma](https://stackoverflow.com/users/5131640/yash-kumar-verma?tab=profile)
   - ![Twitter Follow](https://img.shields.io/twitter/follow/yash_kr_verma?style=social)
 
-![Screenshot](screenshots/ACM%20Apptitude%20Logo.png)
-![Screenshot](screenshots/ACM%20Apptitude%20Splash.png)
-![Screenshot](screenshots/problem%20statement.jpeg)
+![Screenshot](screenshots/screenshot1.png)
+![Screenshot](screenshots/screenshot2.png)
+![Screenshot](screenshots/screenshot3.png)
+![Screenshot](screenshots/screenshot4.png)
+![Screenshot](screenshots/screenshot5.png)
+![Screenshot](screenshots/screenshot6.png)
+![Screenshot](screenshots/screenshot7.png)
+![Screenshot](screenshots/screenshot8.png)
+![Screenshot](screenshots/screenshot9.png)
+![Screenshot](screenshots/screenshot1.png)0
+![Screenshot](screenshots/screenshot1.png)1
+![Screenshot](screenshots/screenshot1.png)2
+![Screenshot](screenshots/screenshot1.png)3
+![Screenshot](screenshots/screenshot1.png)4
+![Screenshot](screenshots/screenshot1.png)5
+![Screenshot](screenshots/screenshot1.png)6
+![Screenshot](screenshots/screenshot1.png)7
+![Screenshot](screenshots/screenshot1.png)8
+![Screenshot](screenshots/screenshot1.png)9
+![Screenshot](screenshots/screenshot2.png)0
+![Screenshot](screenshots/screenshot2.png)1
+![Screenshot](screenshots/screenshot2.png)2
+![Screenshot](screenshots/screenshot2.png)3
+![Screenshot](screenshots/screenshot2.png)4

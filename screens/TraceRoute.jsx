@@ -62,9 +62,15 @@ class GoogleMap extends React.Component {
           customMapStyle={DARK_MAP}
         >
           <Marker
-            coordinate={{ latitude: 30.3630639, longitude: 78.063015 }}
+            coordinate={{ latitude: 30.3727138, longitude: 78.0643015 }}
             title="Developer's Home"
             description={"Yash made this thing sitting here "}
+          />
+
+          <Marker
+            coordinate={{ ...this.state.region }}
+            title="You are here"
+            description={"you are here and we are tracking you !"}
           />
         </MapView>
       </View>

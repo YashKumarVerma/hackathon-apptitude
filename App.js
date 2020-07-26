@@ -18,6 +18,8 @@ const theme = {
   },
 };
 
+console.disableYellowBox = true;
+
 /**
  * Bootstrap navigation pages
  */

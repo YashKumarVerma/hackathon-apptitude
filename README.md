@@ -70,30 +70,7 @@ All the screenshots are in the `screenshots` folder.
   - Stackoverflow: [yash-kumar-verma](https://stackoverflow.com/users/5131640/yash-kumar-verma?tab=profile)
   - ![Twitter Follow](https://img.shields.io/twitter/follow/yash_kr_verma?style=social)
 
-<img src="screenshots/screenshot1.png" width="200px" />
-<img src="screenshots/screenshot2.png" width="200px" />
-<img src="screenshots/screenshot3.png" width="200px" />
-<img src="screenshots/screenshot4.png" width="200px" />
-<img src="screenshots/screenshot5.png" width="200px" />
-<img src="screenshots/screenshot6.png" width="200px" />
-<img src="screenshots/screenshot7.png" width="200px" />
-<img src="screenshots/screenshot8.png" width="200px" />
-<img src="screenshots/screenshot9.png" width="200px" />
-<img src="screenshots/screenshot10.png" width="200px" />
-<img src="screenshots/screenshot11.png" width="200px" />
-<img src="screenshots/screenshot12.png" width="200px" />
-<img src="screenshots/screenshot13.png" width="200px" />
-<img src="screenshots/screenshot14.png" width="200px" />
-<img src="screenshots/screenshot15.png" width="200px" />
-<img src="screenshots/screenshot16.png" width="200px" />
-<img src="screenshots/screenshot17.png" width="200px" />
-<img src="screenshots/screenshot18.png" width="200px" />
-<img src="screenshots/screenshot19.png" width="200px" />
-<img src="screenshots/screenshot20.png" width="200px" />
-<img src="screenshots/screenshot21.png" width="200px" />
-<img src="screenshots/screenshot22.png" width="200px" />
-<img src="screenshots/screenshot23.png" width="200px" />
-<img src="screenshots/screenshot24.png" width="200px" />
+<img  src="screenshots/screenshot1.png" width="200px"  /><img  src="screenshots/screenshot2.png" width="200px"  /><img src="screenshots/screenshot3.jpeg" width="200px"  /><img  src="screenshots/screenshot4.png" width="200px"  /><img  src="screenshots/screenshot5.png" width="200px"  /><img  src="screenshots/screenshot6.png" width="200px"  /><img  src="screenshots/screenshot7.png" width="200px"  /><img  src="screenshots/screenshot8.png" width="200px"  /><img  src="screenshots/screenshot9.png" width="200px"  /><img  src="screenshots/screenshot10.png" width="200px" /><img  src="screenshots/screenshot11.png" width="200px" /><img  src="screenshots/screenshot12.png" width="200px" /><img  src="screenshots/screenshot13.png" width="200px" /><img  src="screenshots/screenshot14.png" width="200px" /><img  src="screenshots/screenshot15.png" width="200px" /><img  src="screenshots/screenshot16.png" width="200px" /><img  src="screenshots/screenshot17.png" width="200px" /><img  src="screenshots/screenshot18.png" width="200px" /><img  src="screenshots/screenshot19.png" width="200px" /><img  src="screenshots/screenshot20.png" width="200px" /><img  src="screenshots/screenshot21.png" width="200px" /><img  src="screenshots/screenshot22.png" width="200px" /><img  src="screenshots/screenshot23.png" width="200px" /><img  src="screenshots/screenshot24.png" width="200px" />
 
 <!-- ![Screenshot](screenshots/screenshot1.png) -->
 <!-- ![Screenshot](screenshots/screenshot2.png) -->

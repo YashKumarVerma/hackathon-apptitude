@@ -69,3 +69,7 @@ All the screenshots are in the `screenshots` folder.
   - LinkedIn: [yash-kumar-verma](https://www.linkedin.com/in/yash-kumar-verma/)
   - Stackoverflow: [yash-kumar-verma](https://stackoverflow.com/users/5131640/yash-kumar-verma?tab=profile)
   - ![Twitter Follow](https://img.shields.io/twitter/follow/yash_kr_verma?style=social)
+
+![Screenshot](screenshots/ACM%20Apptitude%20Logo.png)
+![Screenshot](screenshots/ACM%20Apptitude%20Splash.png)
+![Screenshot](screenshots/problem%20statement.jpeg)

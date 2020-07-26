@@ -12,6 +12,8 @@ import firebase from "../firebase/worker";
 import MapView, { Marker } from "react-native-maps";
 import { DARK_MAP, LIGHT_MAP } from "../theme/maps";
 
+import { Button, Dialog, Portal, Paragraph } from "react-native-paper";
+
 /** to create random names */
 import {
   uniqueNamesGenerator,
@@ -31,9 +33,10 @@ class TeamScreen extends React.Component {
     region: {
       latitude: 30.3627138,
       longitude: 78.0643015,
-      latitudeDelta: 0.0922,
-      longitudeDelta: 0.0421,
+      latitudeDelta: 10.0922,
+      longitudeDelta: 10.0421,
     },
+    visible: true,
   };
 
   componentDidMount() {
@@ -65,7 +68,7 @@ class TeamScreen extends React.Component {
       <ScrollView>
         <View style={styles.container}>
           <Text style={styles.floatingText}>
-            Total Users : {this.state.users.length}
+            Total Users : {this.state.users.length} {`\n`}
           </Text>
           <MapView
             style={styles.mapStyle}
@@ -94,6 +97,26 @@ class TeamScreen extends React.Component {
             })}
           </MapView>
         </View>
+        <Portal>
+          <Dialog visible={this.state.visible}>
+            <Dialog.Title>Info</Dialog.Title>
+            <Dialog.Content>
+              <Paragraph>
+                you're seeing live locations of users who are active, and last
+                seen locations of users that are inactive.
+              </Paragraph>
+            </Dialog.Content>
+            <Dialog.Actions>
+              <Button
+                onPress={() => {
+                  this.setState({ visible: false });
+                }}
+              >
+                Done
+              </Button>
+            </Dialog.Actions>
+          </Dialog>
+        </Portal>
       </ScrollView>
     );
   }

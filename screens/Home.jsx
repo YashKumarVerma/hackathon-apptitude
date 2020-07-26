@@ -80,13 +80,17 @@ class HomeScreen extends React.Component {
             We'll steal your {Device.modelName}
           </Text>
           <Text style={styles.heading1}>
-            {geocode ? `${geocode[0].city}, ${geocode[0].isoCountryCode}` : ""}
+            {geocode
+              ? `${geocode[0].city}, ${geocode[0].isoCountryCode}`
+              : "locating you"}
           </Text>
           <Text style={styles.heading2}>
             {geocode ? geocode[0].street : ""}
           </Text>
           <Text style={styles.heading3}>
-            {location ? `${location.latitude}, ${location.longitude}` : ""}
+            {location
+              ? `Coordinates : ${location.latitude}, ${location.longitude}`
+              : "almost done.."}
           </Text>
           <Text style={styles.heading2}>{errorMessage}</Text>
         </View>

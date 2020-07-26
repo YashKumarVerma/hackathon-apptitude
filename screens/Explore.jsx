@@ -58,11 +58,14 @@ class TeamScreen extends React.Component {
             customMapStyle={LIGHT_MAP}
           >
             {this.state.users.map((user) => {
+              console.log(user);
               return (
                 <Marker
-                  coordinate={{ latitude: 30.3727138, longitude: 78.0643015 }}
-                  title="Developer's Home"
-                  description={"Yash made this thing sitting here "}
+                  coordinate={{
+                    latitude: user.latitude,
+                    longitude: user.longitude,
+                  }}
+                  title="Someone's Here"
                 />
               );
             })}

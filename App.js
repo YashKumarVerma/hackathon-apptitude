@@ -36,7 +36,7 @@ import TraceRouteScreen from "./screens/WhereAmI";
  * Configure tabs navigation for HomePage
  */
 const TabsNavigation = () => {
-  const [index, setIndex] = React.useState(2);
+  const [index, setIndex] = React.useState(1);
   const [routes] = React.useState([
     { key: "traceRoute", title: "Where am I", icon: "pin" },
     { key: "home", title: "Home", icon: "home" },

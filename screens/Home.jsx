@@ -3,6 +3,7 @@ import { StyleSheet, View, ImageBackground, Image } from "react-native";
 import { Text } from "react-native-paper";
 import * as Location from "expo-location";
 import * as Permissions from "expo-permissions";
+import Constants from "expo-constants";
 
 class HomeScreen extends React.Component {
   /** initial state of application */
@@ -84,6 +85,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
+    marginTop: Constants.statusBarHeight,
   },
   overlay: {
     backgroundColor: "#00000070",

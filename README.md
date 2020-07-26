@@ -1,6 +1,10 @@
-## Apptitude !
+# Apptitude !
 
-#### Task 1: Get User location and display it.
+## Features
+
+- Get User location and display it.
+- Show users location on map
+- Cover entire screen for map (even status bar !)
 
 ## Open Source Assistance
 

@@ -38,7 +38,7 @@ import TraceRouteScreen from "./screens/TraceRoute";
 const TabsNavigation = () => {
   const [index, setIndex] = React.useState(1);
   const [routes] = React.useState([
-    { key: "traceRoute", title: "Trace Route", icon: "pin" },
+    { key: "traceRoute", title: "Trace on Map", icon: "pin" },
     { key: "home", title: "Home", icon: "home" },
     { key: "nearby", title: "Who's near me", icon: "map" },
   ]);

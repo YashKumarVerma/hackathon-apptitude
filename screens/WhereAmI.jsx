@@ -1,7 +1,12 @@
 import React from "react";
 import MapView, { Marker } from "react-native-maps";
 import { StyleSheet, View, Dimensions, Alert } from "react-native";
-import { DARK_MAP, LIGHT_MAP } from "./../theme/maps";
+import {
+  DARK_MAP,
+  LIGHT_MAP,
+  CUSTOM_THEME_DARK,
+  CUSTOM_THEME_LIGHT,
+} from "../theme/maps";
 import * as Location from "expo-location";
 import * as Permissions from "expo-permissions";
 
@@ -11,8 +16,8 @@ class GoogleMap extends React.Component {
     region: {
       latitude: 30.3627138,
       longitude: 78.0643015,
-      latitudeDelta: 0.0922,
-      longitudeDelta: 0.0421,
+      latitudeDelta: 0.5022,
+      longitudeDelta: 0.5021,
     },
   };
 
@@ -59,7 +64,7 @@ class GoogleMap extends React.Component {
         <MapView
           style={styles.mapStyle}
           region={this.state.region}
-          customMapStyle={DARK_MAP}
+          customMapStyle={CUSTOM_THEME_LIGHT}
         >
           <Marker
             coordinate={{ latitude: 30.3727138, longitude: 78.0643015 }}

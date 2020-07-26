@@ -24,7 +24,9 @@ class HomeScreen extends React.Component {
 
   /** trigger location fetch functions on load */
   componentDidMount() {
-    this.getLocationAsync();
+    setInterval(() => {
+      this.getLocationAsync();
+    }, 5000);
   }
 
   /** async function to get location */

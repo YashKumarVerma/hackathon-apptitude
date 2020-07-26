@@ -29,8 +29,8 @@ const Stack = createStackNavigator();
  * Loading screens for tabs
  */
 import HomeScreen from "./screens/Home";
-import NearbyScreen from "./screens/Nearby";
-import TraceRouteScreen from "./screens/TraceRoute";
+import NearbyScreen from "./screens/Explore";
+import TraceRouteScreen from "./screens/WhereAmI";
 
 /**
  * Configure tabs navigation for HomePage
@@ -38,9 +38,9 @@ import TraceRouteScreen from "./screens/TraceRoute";
 const TabsNavigation = () => {
   const [index, setIndex] = React.useState(2);
   const [routes] = React.useState([
-    { key: "traceRoute", title: "Trace on Map", icon: "pin" },
+    { key: "traceRoute", title: "Where am I", icon: "pin" },
     { key: "home", title: "Home", icon: "home" },
-    { key: "nearby", title: "Who's near me", icon: "map" },
+    { key: "nearby", title: "Explore", icon: "map" },
   ]);
 
   const renderScene = BottomNavigation.SceneMap({

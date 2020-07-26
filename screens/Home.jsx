@@ -4,6 +4,10 @@ import { Text } from "react-native-paper";
 import * as Location from "expo-location";
 import * as Permissions from "expo-permissions";
 import Constants from "expo-constants";
+import * as Device from "expo-device";
+
+/** linking firebase */
+import { db } from "./../firebase/config";
 
 class HomeScreen extends React.Component {
   /** initial state of application */
@@ -11,6 +15,7 @@ class HomeScreen extends React.Component {
     location: null,
     geocode: null,
     errorMessage: "",
+    timestamp: 0,
   };
 
   /** trigger location fetch functions on load */
@@ -63,6 +68,9 @@ class HomeScreen extends React.Component {
             source={require("../assets/location-pin.png")}
             style={{ width: 100, height: 100 }}
           />
+          <Text style={styles.heading3}>
+            We'll steal your {Device.modelName}
+          </Text>
           <Text style={styles.heading1}>
             {geocode ? `${geocode[0].city}, ${geocode[0].isoCountryCode}` : ""}
           </Text>

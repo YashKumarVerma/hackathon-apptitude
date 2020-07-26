@@ -12,6 +12,7 @@
     "@react-navigation/native": "^5.5.1",
     "@react-navigation/stack": "^5.5.1",
     "expo": "~37.0.3",
+    "expo-device": "~2.1.0",
     "expo-location": "~8.1.0",
     "expo-permissions": "~8.1.0",
     "firebase": "^7.17.1",

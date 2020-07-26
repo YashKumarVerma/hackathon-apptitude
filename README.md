@@ -5,6 +5,7 @@
 - Get User location and display it.
 - Show users location on map
 - Cover entire screen for map (even status bar !)
+- Show developer location and live user location
 
 ## Open Source Assistance
 

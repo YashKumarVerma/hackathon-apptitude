@@ -12,3 +12,8 @@ web-report/
 
 # macOS
 .DS_Store
+
+
+#data dump files
+*.txt
+*.env

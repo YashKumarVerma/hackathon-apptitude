@@ -6,13 +6,14 @@ import {
 } from "react-native-paper";
 
 /** define application theme */
+// background image color: #151D28
 const theme = {
   ...DefaultTheme,
   roundness: 2,
   colors: {
     ...DefaultTheme.colors,
-    primary: "#FAFAFA",
-    secondary: "white",
+    primary: "#151D28",
+    secondary: "#263547",
     accent: "#F24744",
   },
 };

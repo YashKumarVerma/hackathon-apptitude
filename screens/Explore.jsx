@@ -12,6 +12,19 @@ import firebase from "../firebase/worker";
 import MapView, { Marker } from "react-native-maps";
 import { DARK_MAP, LIGHT_MAP } from "../theme/maps";
 
+/** to create random names */
+import {
+  uniqueNamesGenerator,
+  adjectives,
+  animals,
+} from "unique-names-generator";
+
+const NameConfig = {
+  dictionaries: [adjectives, animals],
+  separator: " ",
+  length: 2,
+};
+
 class TeamScreen extends React.Component {
   state = {
     users: [],
@@ -51,7 +64,9 @@ class TeamScreen extends React.Component {
     return (
       <ScrollView>
         <View style={styles.container}>
-          <Text>Total Users : {this.state.users.length}</Text>
+          <Text style={styles.floatingText}>
+            Total Users : {this.state.users.length}
+          </Text>
           <MapView
             style={styles.mapStyle}
             region={this.state.region}
@@ -59,13 +74,21 @@ class TeamScreen extends React.Component {
           >
             {this.state.users.map((user) => {
               console.log(user);
+              const name = uniqueNamesGenerator({
+                dictionaries: [adjectives, animals],
+                separator: " ",
+                length: 2,
+              });
+
               return (
                 <Marker
+                  key={user.id}
                   coordinate={{
                     latitude: user.latitude,
                     longitude: user.longitude,
                   }}
-                  title="Someone's Here"
+                  title={name}
+                  description={`lives somewhere here, beware.`}
                 />
               );
             })}
@@ -82,11 +105,16 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    marginTop: Constants.statusBarHeight,
   },
   mapStyle: {
     width: Dimensions.get("window").width,
     height: Dimensions.get("window").height,
+  },
+  floatingText: {
+    position: "absolute",
+    top: Constants.statusBarHeight * 1.25,
+    zIndex: 1,
+    fontWeight: "bold",
   },
 });
 

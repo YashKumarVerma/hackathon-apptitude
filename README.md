@@ -1,6 +1,14 @@
 # Apptitude !
 
+Video Demonstration
+
+<p align="center">
+<img src="screenshots/screenshot2.png" align="center" width="40%" />
+</p>
+
 [**Download Now**](https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40yashkumarverma/apptitude-eb4b9c2b856a4f178eed0bf478d67c35-signed.apk)
+
+[**Video Demonstration**](https://www.youtube.com/watch?v=Oa3qXFARLDs)
 
 ## Features
 
@@ -71,29 +79,3 @@ All the screenshots are in the `screenshots` folder.
   - ![Twitter Follow](https://img.shields.io/twitter/follow/yash_kr_verma?style=social)
 
 <img  src="screenshots/screenshot1.png" width="200px"  /><img  src="screenshots/screenshot2.png" width="200px"  /><img src="screenshots/screenshot3.jpeg" width="200px"  /><img  src="screenshots/screenshot4.png" width="200px"  /><img  src="screenshots/screenshot5.png" width="200px"  /><img  src="screenshots/screenshot6.png" width="200px"  /><img  src="screenshots/screenshot7.png" width="200px"  /><img  src="screenshots/screenshot8.png" width="200px"  /><img  src="screenshots/screenshot9.png" width="200px"  /><img  src="screenshots/screenshot10.png" width="200px" /><img  src="screenshots/screenshot11.png" width="200px" /><img  src="screenshots/screenshot12.png" width="200px" /><img  src="screenshots/screenshot13.png" width="200px" /><img  src="screenshots/screenshot14.png" width="200px" /><img  src="screenshots/screenshot15.png" width="200px" /><img  src="screenshots/screenshot16.png" width="200px" /><img  src="screenshots/screenshot17.png" width="200px" /><img  src="screenshots/screenshot18.png" width="200px" /><img  src="screenshots/screenshot19.png" width="200px" /><img  src="screenshots/screenshot20.png" width="200px" /><img  src="screenshots/screenshot21.png" width="200px" /><img  src="screenshots/screenshot22.png" width="200px" /><img  src="screenshots/screenshot23.png" width="200px" /><img  src="screenshots/screenshot24.png" width="200px" />
-
-<!-- ![Screenshot](screenshots/screenshot1.png) -->
-<!-- ![Screenshot](screenshots/screenshot2.png) -->
-<!-- ![Screenshot](screenshots/screenshot3.png) -->
-<!-- ![Screenshot](screenshots/screenshot4.png) -->
-<!-- ![Screenshot](screenshots/screenshot5.png) -->
-<!-- ![Screenshot](screenshots/screenshot6.png) -->
-<!-- ![Screenshot](screenshots/screenshot7.png) -->
-<!-- ![Screenshot](screenshots/screenshot8.png) -->
-<!-- ![Screenshot](screenshots/screenshot9.png) -->
-<!-- ![Screenshot](screenshots/screenshot10.png) -->
-<!-- ![Screenshot](screenshots/screenshot11.png) -->
-<!-- ![Screenshot](screenshots/screenshot12.png) -->
-<!-- ![Screenshot](screenshots/screenshot13.png) -->
-<!-- ![Screenshot](screenshots/screenshot14.png) -->
-<!-- ![Screenshot](screenshots/screenshot15.png) -->
-<!-- ![Screenshot](screenshots/screenshot16.png) -->
-<!-- ![Screenshot](screenshots/screenshot17.png) -->
-<!-- ![Screenshot](screenshots/screenshot18.png) -->
-<!-- ![Screenshot](screenshots/screenshot19.png) -->
-<!-- ![Screenshot](screenshots/screenshot20.png) -->
-<!-- ![Screenshot](screenshots/screenshot21.png) -->
-<!-- ![Screenshot](screenshots/screenshot22.png) -->
-<!-- ![Screenshot](screenshots/screenshot23.png) -->
-<!-- ![Screenshot](screenshots/screenshot24.png) -->
-<!--  -->

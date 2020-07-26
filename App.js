@@ -1,6 +1,21 @@
 import React from "react";
-import { BottomNavigation } from "react-native-paper";
-import { Provider as PaperProvider } from "react-native-paper";
+import {
+  DefaultTheme,
+  Provider as PaperProvider,
+  BottomNavigation,
+} from "react-native-paper";
+
+/** define application theme */
+const theme = {
+  ...DefaultTheme,
+  roundness: 2,
+  colors: {
+    ...DefaultTheme.colors,
+    primary: "#FAFAFA",
+    secondary: "white",
+    accent: "#F24744",
+  },
+};
 
 /**
  * Bootstrap navigation pages
@@ -44,7 +59,7 @@ const TabsNavigation = () => {
 
 function App() {
   return (
-    <PaperProvider>
+    <PaperProvider theme={theme}>
       <NavigationContainer>
         <TabsNavigation />
       </NavigationContainer>

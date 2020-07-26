@@ -30,6 +30,26 @@
 - As new users open application, new pointers are added.
 - Everything made realtime using Firebase
 
+## Local Development
+
+- Clone the repository
+- Run `yarn install`
+- Run `yarn start`
+
+## Completion Status
+
+All the requirements asked in the problem statement are met.
+
+## Learning
+
+- [x] Never Used Firebase, Used successfully.
+- [x] Never used Maps. Used successfully.
+- [x] Never used Location, Used successfully.
+
+## Screenshots
+
+All the screenshots are in the `screenshots` folder.
+
 ## Technologies Used
 
 - [Firebase](http://firebase.google.com/)

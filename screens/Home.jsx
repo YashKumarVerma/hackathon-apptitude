@@ -1,14 +1,18 @@
+/** core tehcnologies */
 import React from "react";
 import { StyleSheet, View, ImageBackground, Image } from "react-native";
 import { Text } from "react-native-paper";
-import * as Location from "expo-location";
-import * as Permissions from "expo-permissions";
+
+/** expo packages */
 import Constants from "expo-constants";
 import * as Device from "expo-device";
+import * as Location from "expo-location";
+import * as Permissions from "expo-permissions";
 
-/** linking firebase */
-import { db } from "./../firebase/config";
+/** firebase workers */
+import { pushLocation } from "../firebase/worker";
 
+/** main application */
 class HomeScreen extends React.Component {
   /** initial state of application */
   state = {
@@ -45,7 +49,9 @@ class HomeScreen extends React.Component {
     this.getGeocodeAsync({ latitude, longitude });
 
     /** propagate changes throughout component */
-    this.setState({ location: { latitude, longitude } });
+    this.setState({ location: { latitude, longitude } }, () => {
+      pushLocation({ latitude, longitude });
+    });
   };
 
   /** reverse lookup of location */
